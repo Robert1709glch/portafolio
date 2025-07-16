@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portafolio</div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="highlight">Roberto Carlos Guajardo Rangel</span></h1>
+                <p>Desarrollador Web Front End</p>
+                <div>
+                    <a href="#proyectos" class="btn">Ver mis proyectos</a>
+                    <a href="#contacto" class="btn btn-outline">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mis Proyectos</h2>
+            </div>
+            <div class="grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="imagen/qr-image.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Frontend Mentor challenge</h3>
+                        <p>Diseño y desarrollo página con un codigo QR.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                        <a href="#" class="btn">Ver Demo</a>
+                        <a href="https://www.figma.com/proto/kiWOGjfjHHVdu542fcm2R4/QR-Front-end-mentor?node-id=1-2&p=f&t=f4QWdwwcWnXF6pGn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" class="btn">Ver Diseño</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="imagen/gastify.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Control de gastos</h3>
+                        <p>Diseño de una página de control de gastos.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                        </div>
+                        <a href="https://www.figma.com/design/E44QZgKhbyZ1Y8bGGn34CI/Gastify?node-id=0-1&t=R1eBf46oggny53bm-1" class="btn">Ver Diseño</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="imagen/portafolio-image.png" alt="Proyecto 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>App de Portafolio</h3>
+                        <p>Página para mostrar mi portafolio.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="imagen/CV Roberto Guajardo.png" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mi contacto</h3>
+                                        
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>robs41270@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+52 81 11 23 38 78</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Monterrey, Nuevo León, México</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="www.linkedin.com/in/roberto-guajardo-a00934262"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2025 Roberto. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
